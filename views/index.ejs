@@ -10,7 +10,9 @@
     <form enctype="multipart/form-data" action="/product" method="post">
         <input name="name" placeholder="title" type="text">
         <input name="price" type="number">
-        <input type="file" name="avatar" id="">
+        <label for='file'>Select your image:</label>
+        <input multiple='multiple'
+        type="file" name="productImages" id="">
         <button type="submit">Submit</button>
     </form>
 </body>
